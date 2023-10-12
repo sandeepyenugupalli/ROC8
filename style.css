@@ -1,0 +1,222 @@
+*{
+
+width:100%;
+
+height: auto;
+
+background-color: rgb(187, 184, 184);
+
+}
+
+.main{
+
+width:1400px;
+height: 890px;
+background-color: rgb(5, 5, 88);
+background-position: center;
+background-size: cover;
+margin: auto;
+margin-top: 50px;
+padding-top: 50px;
+
+
+
+}
+
+.navbar{
+
+width: 1000px;
+height: 50px;
+background-color: rgb(5, 5, 88);
+margin: auto;
+/* border: 1px solid red; */
+
+}
+
+.icon{
+
+width: 100px;
+height: 45px;
+float: left;
+background-color: rgb(5, 5, 88);
+/* border: 1px solid red; */
+margin-top: 2px;
+
+}
+
+.logo{
+
+color: white;
+
+font-size: 16px;
+font-style:initial;
+background-color: rgb(5, 5, 88);
+text-align:center;
+
+}
+
+.menu{
+
+    width: 500px;
+    height: 45px;
+    float: right;
+    background-color: rgb(5, 5, 88);
+    /* border: 1px solid red; */
+    margin-top: 3px;
+    
+
+}
+
+ul{
+
+float: right;
+display: flex;
+justify-content: center;
+align-items: center;
+
+background-color: rgb(5, 5, 88);
+margin-top: 10px;
+
+
+}
+
+ul li{
+
+list-style: none;
+color: white;
+font-size: 15px;
+
+background-color: rgb(5, 5, 88);
+
+/* border: 1px solid red; */
+margin-bottom: 5px;
+margin-left: 2px;
+justify-content: center;
+
+}
+
+ul li a{
+    color: white;
+    text-decoration-line: none;
+    background-color: rgb(5, 5, 88);
+    
+    
+    
+}
+
+ul li a:hover{
+    color: rgb(68, 187, 226);
+    text-decoration:underline;
+}
+
+#description{
+    width: 1070px;
+    height:610px;
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid red; */
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgb(5, 5, 88);
+}
+
+#description>div{
+    width: 470px;
+    height: 600px;;
+    /* border: 1px solid rgb(229, 215, 215); */
+    background-color: rgb(5, 5, 88);
+}
+
+.content{
+
+    width: 400px;
+    height: 450px;;
+    /* border: 1px solid rgb(229, 215, 215); */
+    margin: 45px;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(5, 5, 88);
+
+}
+
+.content .cn{
+    background-color: rgb(5, 5, 88);
+}
+.content .pr{
+    background-color: rgb(5, 5, 88);
+
+}
+
+.content .bn{
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 15px;
+    background-color: brown;
+    
+}
+
+.sign-up-form{
+   width: 80%;
+   height: 90%;
+   margin-left: 8%;
+   margin-right: 8%;
+   text-align: center;
+   background-color: white;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.sign-up-form h1{
+    margin-bottom: 30px;
+    color: black;
+    background-color: white;
+    font-size: 40px;
+}
+
+.input-box{
+    width: 80%;
+    height:20px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: white;
+    /* border: 1px solid #999; */
+    outline: none;
+    border-color: #d9d6d6;
+
+}
+
+.sign-up-form form{
+    background-color: white;
+}
+
+button{
+
+    color:#fff;
+    width:80%;
+    padding:10px;
+    margin:10px;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+
+}
+
+.check{
+    width: 15%;
+    height: 15%;
+    margin-left: 20px;
+    background-color: white;
+    
+}
+
+.sign-inbt{
+    background-color: blue;
+}
+.tw-bt{
+    background-color: rgb(13, 229, 244);
+}
+ 
